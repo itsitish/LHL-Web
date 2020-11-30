@@ -1,0 +1,65 @@
+html,
+body {
+    min-height: 100vh;
+    height: auto;
+}
+model-viewer #reveal {
+    --poster-color: transparent;
+  }
+  model-viewer {
+    width: auto;
+    height: 40vh;
+  }
+.outer-container {
+    padding: 1vh 1vw 0vh 1vw;
+    background: rgb(30, 30, 30);
+}
+.gradient-container {
+    border-radius: 25px;
+    color: #666;
+    text-align: center;
+    box-sizing: border-box;
+    border: 6px solid transparent;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(30, 30, 30)), linear-gradient(to right,  rgb(153, 67, 184), rgb(65, 45, 138));
+    min-height: 98vh;
+    min-width: 94vw;
+}
+.btn {
+    position: fixed;
+    bottom: 5%;
+    left: 6%;
+    width: 30%;
+    height: 6%;
+    max-width: 200px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 50px;
+    background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+    background-size: 600%;
+    -webkit-animation: anime 16s linear infinite;
+    animation: anime 16s linear infinite;
+}
+@-webkit-keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
