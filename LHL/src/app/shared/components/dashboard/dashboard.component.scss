@@ -3,9 +3,6 @@ body {
     min-height: 100vh;
     height: auto;
 }
-model-viewer #reveal {
-    --poster-color: transparent;
-  }
   model-viewer {
     width: auto;
     height: 40vh;
@@ -26,6 +23,9 @@ model-viewer #reveal {
     min-height: 98vh;
     min-width: 94vw;
 }
+.top-row {
+    height: 20%;
+}
 .btn {
     position: fixed;
     bottom: 5%;
@@ -36,10 +36,10 @@ model-viewer #reveal {
     text-align: center;
     color: rgba(255, 255, 255, 0.9);
     border-radius: 50px;
-    background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+    background: linear-gradient(-45deg,rgb(153, 67, 184),  rgb(65, 45, 138));
     background-size: 600%;
-    -webkit-animation: anime 16s linear infinite;
-    animation: anime 16s linear infinite;
+    -webkit-animation: anime 4s linear infinite;
+    animation: anime 4s linear infinite;
 }
 @-webkit-keyframes anime {
     0% {
