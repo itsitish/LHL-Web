@@ -1,5 +1,7 @@
 html,
 body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+
     min-height: 100vh;
     height: auto;
 }
@@ -12,11 +14,11 @@ body {
     background: rgb(30, 30, 30);
 }
 .gradient-container {
+    color: white;
     border-radius: 25px;
-    color: #666;
     text-align: center;
     box-sizing: border-box;
-    border: 6px solid transparent;
+    border: 3px solid transparent;
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
     background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(30, 30, 30)), linear-gradient(to right,  rgb(153, 67, 184), rgb(65, 45, 138));
