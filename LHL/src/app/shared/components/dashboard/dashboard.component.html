@@ -1,63 +1,55 @@
 <div class="outer-container">
     <div class="gradient-container">
-        <div class="">
-            <div class="row ml-5 mr-5 mt-5">
-                <h1 class="mx-auto font-weight-bold">
-                    TripSync
+        <nav class="navbar float-right">
+            <button type="button" class="btn btn-link" (click)="onAboutUs()">About Us</button>
+        </nav>
+        <div class="row ml-5 mr-5 mt-5">
+            <h1 class="mx-auto font-weight-bold">
+                TripSync
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-4  mt-5">
+                <h1 class="font-weight-bold">
+                    {{textData.dashboard.title}}
                 </h1>
+                <ul>
+                    <li>
+                        {{textData.dashboard.line1}} </li>
+                    <li>
+                        {{textData.dashboard.line2}} </li>
+                    <li>
+                        {{textData.dashboard.line3}} </li>
+                    <li>
+                        {{textData.dashboard.line4}} </li>
+                    <li>
+                        {{textData.dashboard.line5}} </li>
+                    <li>
+                        {{textData.dashboard.line6}} </li>
+                </ul>
             </div>
-            <div class="row">
-                <div class="col-lg-4  mt-5">
-                    <h1 class="font-weight-bold">
-                        Specifications :
-                    </h1>
-                    <ul>
-                        <li>
-                            Easily configurable via Web-App, So no download needed just fire-it-up.
-                        </li>
-                        <li>
-                            More than 60 pre-defined transitions to play with.
-                        </li>
-                        <li>
-                            Elegant Mood Light that uses high powered, 16 million colour LEDs, to fit in your mood.
-                        </li>
-                        <li>
-                            Compact in size.
-                        </li>
-                        <li>
-                            Plug & Play.
-                        </li>
-                        <li>
-                            Integrate with your Social platform to get notified in different colour.
-                        </li>
-                    </ul>
+            <div class="col-lg-8">
+                <div class="row top-row pt-5">
+                    <div class="col-6">
+                        Container top left
+                    </div>
+                    <div class="col-6">
+                        Container top right
+                    </div>
                 </div>
-                <div class="col-lg-8">
-                    <div class="row top-row mt-5">
-                        <div class="col-6">
-                            ok
-                            Easily configurable via Web-App, So no download needed just fire-it-up.
-                        </div>
-                        <div class="col-6">
-                            ok
-                            ok
-                            Easily configurable via Web-App, So no download needed just fire-it-up.
-                        </div>
+                <div class="row mt-5">
+                    <div class="col">
+                        <model-viewer poster="assets/loading.png" loading="'eager'" camera-controls
+                            src="assets/image.glb" alt="A 3D model of a lhl">
+                        </model-viewer>
                     </div>
-                    <div class="row mt-5">
-                        <div class="col">
-                            <model-viewer poster="assets/loading.png" loading="'eager'" camera-controls
-                                src="assets/image.glb" alt="A 3D model of a lhl">
-                            </model-viewer>
-                        </div>
+                </div>
+                <div class="row pt-5 pb-5">
+                    <div class="col-6">
+                        Container bottom left
                     </div>
-                    <div class="row mt-5 mb-5">
-                        <div class="col-6">
-                            ok
-                        </div>
-                        <div class="col-6">
-                            ok
-                        </div>
+                    <div class="col-6">
+                        Container bottom right
                     </div>
                 </div>
             </div>

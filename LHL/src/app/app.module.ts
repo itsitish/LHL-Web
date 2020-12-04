@@ -4,11 +4,13 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './shared/components/dashboard/dashboard.component';
+import { AboutComponent } from './shared/components/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    AboutComponent
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
