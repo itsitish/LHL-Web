@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "LHL"
+  "defaultProject": "LHL",
+  "cli": {
+    "analytics": false
+  }
 }

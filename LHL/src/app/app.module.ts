@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './shared/components/dashboard/dashboard.component';
 import { AboutComponent } from './shared/components/about/about.component';
+import { CaraouselComponent } from './shared/components/caraousel/caraousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    AboutComponent
+    AboutComponent,
+    CaraouselComponent
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA

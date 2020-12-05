@@ -5,14 +5,40 @@ body {
     min-height: 100vh;
     height: auto;
 }
+img {
+    width: 140px;
+}
+.subtitle {
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+.underText{
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: whitesmoke;
+    text-align: left;
+}
   model-viewer {
     width: auto;
     height: 40vh;
   }
+  .trip{
+    font-weight: 700;
+  }
+  .sync{
+      font-weight: 200;
+  }
+  .header{
+      font-size: 2.5rem;
+      letter-spacing: 0.5rem;
+  }
 .outer-container {
-    padding: 1vh 1vw 0vh 1vw;
+    padding: 3vh 5vh 3vh 5vh;
     background: rgb(30, 30, 30);
 }
+// .topLogo{
+//     background-color: whitesmoke;
+// }
 .gradient-container {
     color: white;
     border-radius: 25px;
@@ -22,8 +48,8 @@ body {
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
     background-image: linear-gradient(to right, rgb(24, 24, 24), rgb(30, 30, 30)), linear-gradient(to right,  rgb(153, 67, 184), rgb(65, 45, 138));
-    min-height: 98vh;
-    min-width: 94vw;
+    min-height: 94vh;
+    min-width: 92vw;
 }
 .top-row {
     height: 20%;
